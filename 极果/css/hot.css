@@ -1,0 +1,55 @@
+/* 1350 */
+
+.hot-main .main-sift {
+    height: 1350px;
+}
+
+
+/* 1200 */
+
+.main-sift-centent .Hot {
+    height: 1200px;
+    overflow: hidden;
+}
+
+.main-sift-centent .Hot li {
+    margin-right: 45px;
+    margin-bottom: 30px;
+}
+
+.main-article-Hot-ul li:hover {
+    box-shadow: 4px 4px 4px 1px #ccc;
+    transform: translateY(-4px);
+}
+
+.llolog {
+    position: relative;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    animation: zhizuo .5s linear forwards;
+}
+
+@keyframes zhizuo {
+    0% {
+        top: -47px;
+        right: 113px;
+    }
+    100% {
+        top: 15px;
+        right: 200px;
+    }
+}
+
+.llolog img {
+    width: 217px;
+    height: 47px;
+}
+
+.llolog span {
+    position: absolute;
+    top: 17px;
+    left: 110px;
+    font-size: 14px;
+    font-weight: bold;
+}

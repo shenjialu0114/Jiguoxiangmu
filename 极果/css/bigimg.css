@@ -1,0 +1,87 @@
+.bigimg {
+    width: 1519px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+
+/* 清除图片多余部分 */
+
+
+/* overflow: hidden; */
+
+.bigimg img {
+    margin-left: -200px;
+    width: 1720px;
+    height: 300px;
+}
+
+
+/* 大图上的样式 */
+
+.bigimg-time {
+    box-sizing: border-box;
+    padding-top: 40px;
+    position: absolute;
+    top: -284px;
+    left: 1121px;
+    width: 437px;
+    height: 288px;
+    animation: times .5s linear forwards;
+}
+
+@keyframes times {
+    0% {
+        top: -284px;
+        left: 1121px;
+    }
+    100% {
+        top: 0;
+        left: 830px;
+    }
+}
+
+.bigimg-time p {
+    font-size: 40px;
+    color: #fff;
+    margin-left: 55px;
+}
+
+.main-span span {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 7px;
+    background-color: rgba(253, 253, 253, .3);
+    margin-left: 10px;
+}
+
+.main-span {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.main-date {
+    margin-top: 20px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    font-size: 19px;
+}
+
+.bigimg-time button {
+    width: 280px;
+    height: 60px;
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 25px;
+    border: 0;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    cursor: pointer;
+}

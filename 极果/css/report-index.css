@@ -1,0 +1,147 @@
+.footer-content {
+    margin: 30px auto;
+}
+
+.report-conten-middel {
+    width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.report-conten-middel-right {
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.report-conten-middel-right-p1 {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-left: 5px solid #FF0000;
+    margin-bottom: 20px;
+}
+
+.playp {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.report-conten-middel-right span {
+    font-size: 14px;
+    color: rgb(112, 110, 110);
+    line-height: 25px;
+}
+
+.report-conten-middel-left-div .iiasdmg {
+    width: 740px;
+    height: 377px;
+    border-radius: 5px 5px 0 0;
+}
+
+.report-conten-middel-left-div {
+    position: relative;
+    border-radius: 5px;
+}
+
+.imgbottomdiv {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    border-radius: 0 0 5px 5px;
+    background-color: #F0EBE8;
+    opacity: .9;
+}
+
+.imgbottomdiv p {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.iconfontp b {
+    color: red;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.iconfontp span {
+    color: rgb(128, 124, 124);
+    font-size: 14px;
+}
+
+.li-bottom {
+    margin-top: 13px;
+    width: 100%;
+    height: 70px;
+    border: 1px solid #ccc;
+}
+
+.li-bottom p {
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(128, 124, 124);
+}
+
+.report-conten-middel-left li {
+    margin-top: 20px;
+}
+
+.report-conten-ps {
+    text-align: center;
+    color: rgb(233, 142, 38);
+    background-color: #F7F7F7;
+    padding-bottom: 50px;
+    padding-right: 350px;
+}
+
+
+/* 2023 */
+
+
+/* 473 */
+
+.report-conten {
+    position: relative;
+    width: 100%;
+    height: 2500px;
+    background-color: #F7F7F7;
+    padding-top: 30px;
+}
+
+
+/* 1950 */
+
+
+/* 450 */
+
+.report-conten-middel-left {
+    float: left;
+    right: 0;
+    width: 740px;
+    height: 2430px;
+    overflow: hidden;
+}
+
+.report-conten-ps {
+    cursor: pointer;
+}
+
+.iiasdmg:hover {
+    animation: gogoin .8s linear infinite;
+}
+
+@keyframes gogoin {
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}

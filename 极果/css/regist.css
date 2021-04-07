@@ -1,0 +1,149 @@
+.footer-content {
+    margin: 30px auto;
+}
+
+main {
+    width: 1530px;
+    height: 800px;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.regist-main {
+    width: 1080px;
+    height: 700px;
+    border: 1px solid red;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.regist-main h1 {
+    margin-top: 20px;
+    padding: 5px 0 5px 20px;
+    border-left: 5px solid #EB1A54;
+    font-size: 20px;
+}
+
+.regist-main-input {
+    width: 500px;
+    height: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 80px;
+}
+
+.regist-main-input {
+    position: relative;
+}
+
+.regist-main-input input {
+    display: block;
+    margin-bottom: 25px;
+    background-color: #F7F7F7;
+    border: 0;
+    width: 300px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.regist-main-input input:nth-child(2),
+.regist-main-input input:nth-child(3) {
+    width: 200px;
+}
+
+.regist-main-input {
+    box-sizing: border-box;
+    padding-left: 65px;
+}
+
+.regist-main-input-div button {
+    display: block;
+    border: 0;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.regist-main-input-div {
+    position: absolute;
+    top: 122px;
+    right: 90px;
+}
+
+.regist-main .btn2 {
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.regist-main span {
+    font-size: 15px;
+    display: block;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    color: green;
+    position: relative;
+    bottom: 10px;
+}
+
+.div-div {
+    position: relative;
+}
+
+.iconfont {
+    font-size: 30px;
+}
+
+.div-div span {
+    display: block;
+    height: 14px;
+}
+
+.div-div b {
+    color: red;
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+
+.llolog {
+    position: relative;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    animation: zhizuo .5s linear forwards;
+}
+
+@keyframes zhizuo {
+    0% {
+        top: -47px;
+        right: 113px;
+    }
+    100% {
+        top: 15px;
+        right: 200px;
+    }
+}
+
+.llolog img {
+    width: 217px;
+    height: 47px;
+}
+
+.llolog span {
+    position: absolute;
+    top: 17px;
+    left: 110px;
+    font-size: 14px;
+    font-weight: bold;
+}

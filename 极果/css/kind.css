@@ -1,0 +1,115 @@
+.kind-content {
+    padding-top: 30px;
+    width: 1520px;
+    height: 2600px;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+}
+
+.content-icon {
+    padding-top: 15px;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.content-icon h1 {
+    font-weight: 500;
+    font-size: 16px;
+    border-left: 5px solid #FA5444;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.content-icon .kind-imgs {
+    width: 100%;
+    height: 285px;
+    border-bottom: 1px dashed #ccc;
+    margin-top: 30px;
+}
+
+.content-icon .kind-imgs li {
+    text-align: center;
+    float: left;
+    /* border: 1px solid red; */
+    margin-right: 15px;
+    margin-left: 40px;
+    margin-bottom: 19px;
+}
+
+.content-icon .kind-imgs a {
+    color: #B5BABD;
+}
+
+.content-icon .kind-imgs li p {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.content-icon .kind-imgs li:hover p {
+    color: #FA5444
+}
+
+.kind-content-bottom {
+    box-sizing: border-box;
+    padding-top: 20px;
+    width: 100%;
+    height: 160px;
+}
+
+.kind-content-bottom li a {
+    text-align: center;
+    color: #B5BABD;
+}
+
+.kind-content-bottom ul {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.kind-content-bottom li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 54px;
+}
+
+#ulul li {
+    margin: 0;
+    margin-left: 44px;
+    margin-right: 11px;
+    margin-bottom: 20px;
+}
+
+#ululul li {
+    margin: 0;
+    margin-left: 44px;
+    margin-right: 24px;
+}
+
+.margin {
+    margin-top: 25px;
+    height: 290px;
+}
+
+.margin .kind-imgs {
+    height: 156px;
+}
+
+.margin .kind-content-bottom {
+    height: 80px;
+}
+
+.kind-imgs img {
+    transition: all .3s linear;
+}
+
+.kind-imgs img:hover {
+    transform: rotate(360deg);
+}

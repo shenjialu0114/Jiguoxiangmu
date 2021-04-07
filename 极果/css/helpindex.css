@@ -1,0 +1,125 @@
+header {
+    border-bottom: 3px solid #ccc;
+}
+
+.free {
+    width: 1080px;
+    height: 1100px;
+    padding-top: 50px;
+}
+
+.free-left {
+    float: left;
+    width: 270px;
+    height: 400px;
+    background-color: #F3F3F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.free-left h1 {
+    font-size: 22px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #AAAAAA;
+    padding-left: 20px;
+}
+
+.free-left ul {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.free-left ul span {
+    font-weight: bold;
+}
+
+.free-left ul li {
+    margin-left: 30px;
+    color: #363738;
+    margin-top: 10px;
+}
+
+a {
+    color: #000;
+}
+
+
+/*  */
+
+.free-right {
+    margin-left: 30px;
+    float: left;
+    width: 730px;
+    height: 1000px;
+    background-color: #F3F3F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.free-right h1 {
+    font-size: 22px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.free-right p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.free-right h4 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #5F584D;
+    line-height: 20px;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.header-right .right-ZC {}
+
+.right-font {
+    position: absolute;
+    right: 100px;
+}
+
+.llolog {
+    position: relative;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    animation: zhizuo .5s linear forwards;
+}
+
+@keyframes zhizuo {
+    0% {
+        top: -47px;
+        right: 113px;
+    }
+    100% {
+        top: 15px;
+        right: 200px;
+    }
+}
+
+.llolog img {
+    width: 217px;
+    height: 47px;
+}
+
+.llolog span {
+    position: absolute;
+    top: 17px;
+    left: 110px;
+    font-size: 14px;
+    font-weight: bold;
+}

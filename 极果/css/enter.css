@@ -1,0 +1,103 @@
+.enter-div {
+    width: 1080px;
+    height: 700px;
+    margin: 30px auto;
+    background-color: #fff;
+}
+
+.enter-div-content {
+    width: 700px;
+    height: 300px;
+    margin: 130px auto;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 1px #ccc, -4px -4px 4px 1px #ccc
+}
+
+.enter-div-content-left {
+    height: 100%;
+    width: 450px;
+    padding-left: 15px;
+    float: left;
+}
+
+.enter-div-content-left h1 {
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(104, 100, 100);
+}
+
+.enter-div-content-left-div {
+    width: 380px;
+    height: 35px;
+    line-height: 30px;
+    border: 1px solid #808080;
+    box-sizing: border-box;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.enter-div-content-left-div input {
+    width: 300px;
+    border: 0;
+}
+
+.wsddd {
+    margin-top: 25px;
+}
+
+.zddl {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.enter-div-content-left button {
+    padding: 6px 25px 6px 25px;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 150px;
+    color: #fff;
+    background-color: red;
+}
+
+.enter-div-content-left p {
+    margin-top: 50px;
+}
+
+.enter-div-content-right {
+    height: 100%;
+    width: 200px;
+    padding-left: 15px;
+    float: left;
+}
+
+.enter-div-content-right h5 {
+    text-align: center;
+}
+
+.enter-div-content-right img {
+    transform: scale(0.8);
+}
+
+.motaik {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px 1px #ccc, -4px -4px 4px 1px #ccc;
+    display: none;
+}
+
+.motaik-btn {
+    position: relative;
+    left: 90px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    padding: 10px 20px 10px 20px;
+}

@@ -1,0 +1,121 @@
+.main-header-h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 3px solid #ECECEC;
+}
+
+
+/* 主体头部 */
+
+
+/* 最新 最热 品类 */
+
+.main-header {
+    width: 1080px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 115px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-header ul {
+    margin: 0 auto;
+    width: 500px;
+    height: 53px;
+    /* margin-bottom: 20px; */
+}
+
+.main-header li {
+    width: 126px;
+    height: 51px;
+    float: left;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.main-header li a {
+    color: rgb(173, 172, 172);
+    /* margin-right: 70px; */
+    font-size: 17px;
+    text-align: center;
+    /* box-sizing: border-box;
+    padding-left: 20px; */
+}
+
+.ass {
+    color: red !important;
+}
+
+.lilili {
+    border-bottom: 4px solid red;
+}
+
+
+/* 主体酷玩部分 */
+
+.main-middel .main-sift {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.main-sift-centent .play-FXKW li {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+
+/* 外 */
+
+#main-shft1 {
+    height: 1400px;
+}
+
+
+/* 内 */
+
+.main-sift-centent .play-FXKW {
+    height: 1200px;
+    overflow: hidden;
+}
+
+.main-article-play-FXKW-ul li:hover {
+    box-shadow: 4px 4px 4px 1px #ccc;
+    transform: translateY(-4px);
+}
+
+.llolog {
+    position: relative;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    animation: zhizuo .5s linear forwards;
+}
+
+@keyframes zhizuo {
+    0% {
+        top: -47px;
+        right: 113px;
+    }
+    100% {
+        top: 15px;
+        right: 200px;
+    }
+}
+
+.llolog img {
+    width: 217px;
+    height: 47px;
+}
+
+.llolog span {
+    position: absolute;
+    top: 17px;
+    left: 110px;
+    font-size: 14px;
+    font-weight: bold;
+}

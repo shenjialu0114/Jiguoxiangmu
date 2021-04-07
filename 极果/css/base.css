@@ -1,0 +1,264 @@
+    /* 免费试用部分开始 */
+    
+    .banner {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    header {
+        border-bottom: 2px solid #474747;
+    }
+    
+    .banner h1 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 400;
+        padding: 30px 0 30px;
+    }
+    
+    .banner2 {
+        text-align: center;
+        line-height: 2;
+    }
+    
+    .banner2 a {
+        display: inline-block;
+        color: #a3a3a3;
+        width: 160px;
+        padding-bottom: 10px;
+    }
+    
+    .banner2 .live {
+        color: #fe5431;
+        border-bottom: 4px solid #fe5431;
+    }
+    /* 免费试用行字结束 */
+    
+    .wrapper {
+        width: 1080px;
+        margin: 0 auto;
+    }
+    
+    .choose {
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .choose a {
+        display: inline-block;
+        color: #a3a3a3;
+        font-size: 18px;
+        width: 160px;
+    }
+    
+    .choose .live {
+        color: #474747;
+    }
+    /*没有更多啦~ */
+    
+    .nomore {
+        text-align: center;
+        margin: 50px 0 80px;
+        color: #777;
+        font-size: 16px;
+    }
+    
+    .freeth-div {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        padding-left: 50px;
+        border-top: 1px solid #ccc;
+    }
+    
+    .freeth-div-ul {
+        box-sizing: border-box;
+        padding-left: 97px;
+        width: 800px;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .freeth-div li a {
+        text-decoration: none;
+        color: #505050;
+        font-size: 20px;
+    }
+    
+    .freeth-div li {
+        float: left;
+        margin-right: 100px;
+    }
+    
+    .banner-ul li {
+        position: relative;
+        left: 12px;
+        float: left;
+        width: 210px;
+        height: 258px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 60px;
+        margin-bottom: 30px;
+    }
+    
+    .banner-ul li img {
+        width: 210px;
+        height: 120px;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .banner-ul-li-div {
+        height: 136px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 0 0 5px 5px;
+    }
+    
+    .banner-ul-li-div p {
+        padding-top: 5px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .banner-ul-li-div span {
+        display: inline-block;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        font-size: 15px;
+        color: rgb(139, 136, 136);
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .banner-ul-li-div .spans {
+        margin-left: 47px;
+    }
+    
+    .banner-ul-li-div .pandb b {
+        color: #fe5431;
+    }
+    
+    .banner-ul-li-div .pandb {
+        margin-top: 5px;
+        font-weight: 500;
+    }
+    
+    .banner-ul-li-div ._ccc {
+        margin-top: 5px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #ccc;
+    }
+    
+    .main-shift {
+        text-align: center;
+        padding-bottom: 40px;
+        background-color: #F7F7F7;
+    }
+    
+    .main-shift a {
+        color: #fe5431;
+        font-size: 15px;
+    }
+    
+    .banner-ul li .poshit-span {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        font-size: 13px;
+        padding: 5px 8px 5px 8px;
+        background-color: red;
+        border-radius: 0 5px 0 5px;
+    }
+    
+    #jiacu {
+        color: burlywood;
+    }
+    
+    .banner-maindiv {
+        position: relative;
+        padding-top: 20px;
+        width: 1520px;
+        height: 1300px;
+        background-color: #F7F7F7;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding-left: 190px;
+    }
+    
+    .banner-ul {
+        width: 1280px;
+        height: 1150px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .jiazai {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 0;
+        color: #fe5431;
+        cursor: pointer;
+        background-color: #F7F7F7;
+    }
+    
+    .banner-ul img:hover {
+        animation: hovers .5s linear infinite;
+    }
+    
+    @keyframes hovers {
+        50% {
+            opacity: .5;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .banner-ul li:hover {
+        box-shadow: 4px 4px 4px 1px #ccc;
+        transform: translateY(-4px);
+    }
+    
+    .llolog {
+        position: relative;
+        position: absolute;
+        top: 15px;
+        right: 200px;
+        animation: zhizuo .5s linear forwards;
+    }
+    
+    @keyframes zhizuo {
+        0% {
+            top: -47px;
+            right: 113px;
+        }
+        100% {
+            top: 15px;
+            right: 200px;
+        }
+    }
+    
+    .llolog img {
+        width: 217px;
+        height: 47px;
+    }
+    
+    .llolog span {
+        position: absolute;
+        top: 17px;
+        left: 110px;
+        font-size: 14px;
+        font-weight: bold;
+    }

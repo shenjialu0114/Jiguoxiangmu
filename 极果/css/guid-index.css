@@ -1,0 +1,181 @@
+.daogou li {
+    margin-left: 48px;
+}
+
+.main-article {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    /* border: 1px solid red; */
+    margin-bottom: 40px;
+}
+
+.main-article li {
+    position: relative;
+    float: left;
+    height: 270px;
+    width: 215px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+/* 单个li内容 */
+
+.imgstm {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.main-articled {
+    box-sizing: border-box;
+    width: 100%;
+    height: 117px;
+    /* border: 1px solid red; */
+    border-radius: 0 0 10px 10px;
+    padding: 5px;
+}
+
+.main-article li span {
+    line-height: 20px;
+}
+
+.block-span {
+    display: block;
+    color: #9DA4AA;
+    margin-top: 40px;
+}
+
+.imgp {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    color: #9DA4AA;
+}
+
+.imgp img {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+
+/* 鼠标经过图片 透明动画效果 */
+
+.imgstm:hover {
+    animation: tm .8s linear infinite;
+}
+
+@keyframes tm {
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* 导购精选 */
+
+.Shoppers .CMDD {
+    width: 1300px;
+    margin-left: 50px;
+}
+
+.Shoppers .CMDD li {
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.launch .main-sift {
+    margin: 0 auto;
+    height: 1400px;
+}
+
+.launch {
+    position: relative;
+}
+
+.jiazai {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0;
+    background-color: #F7F7F7;
+    cursor: pointer;
+    color: #F96D5C;
+}
+
+.launch .block-span {
+    position: absolute;
+    bottom: 11px;
+    color: #F96D5C;
+}
+
+.launch .main-articled p {
+    margin-top: 5px;
+    color: rgb(172, 169, 169);
+    font-size: 14px;
+}
+
+.main-sift {
+    background-color: #F7F7F7;
+}
+
+#zhedimg {
+    position: absolute;
+    bottom: -10px;
+    z-index: 0;
+    width: 100%;
+    height: 15px;
+}
+
+
+/*  */
+
+#main-siftFx {
+    height: 1400px;
+}
+
+.Shoppers {
+    width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.llolog {
+    position: relative;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    animation: zhizuo .5s linear forwards;
+}
+
+@keyframes zhizuo {
+    0% {
+        top: -47px;
+        right: 113px;
+    }
+    100% {
+        top: 15px;
+        right: 200px;
+    }
+}
+
+.llolog img {
+    width: 217px;
+    height: 47px;
+}
+
+.llolog span {
+    position: absolute;
+    top: 17px;
+    left: 110px;
+    font-size: 14px;
+    font-weight: bold;
+}

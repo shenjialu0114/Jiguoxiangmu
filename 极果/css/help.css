@@ -1,0 +1,255 @@
+.help-LC {
+    width: 1516px;
+    height: 100px;
+    background-color: #F0F0F0;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+
+.help-LC-content {
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.help-LC-content .shiyong {
+    display: block;
+    padding-top: 18px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.help-LC-content ul {
+    position: absolute;
+    top: 20px;
+    left: 140px;
+}
+
+.help-LC-content ul li {
+    float: left;
+    margin-right: 130px;
+    text-align: center;
+}
+
+.help-LC-content ul li span {
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #A0A0A0;
+}
+
+.help-LC-content ul li:hover span {
+    border-bottom: 2px solid red;
+}
+
+
+/* 产品介绍 */
+
+.help-JS {
+    position: relative;
+    margin: 0 auto;
+    width: 1080px;
+    height: 100%;
+}
+
+.help-JS-left {
+    width: 750px;
+    padding-top: 35px;
+    height: 100%;
+}
+
+.help-JS-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 320px;
+    height: 1000px;
+}
+
+.CPJS-span {
+    display: block;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.CPJS-p {
+    margin-top: 20px;
+    color: red;
+    font-weight: 600;
+}
+
+.CPJS-p2 {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(121, 116, 116);
+}
+
+.CPJS-p3 {
+    padding-top: 30px;
+    color: #23A9F2;
+}
+
+.CPJS-img {
+    margin-top: 30px;
+}
+
+.hd {
+    margin-top: 40px;
+}
+
+.CPJS-p4 {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #23A9F2;
+    font-size: 14px
+}
+
+.CPJS-p4 a {
+    color: #23A9F2;
+}
+
+.CPJS-p5 {
+    margin-top: 30px;
+    color: red;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.rrmmssyy {
+    padding-left: 13px;
+}
+
+.CPJS-p6 {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.CPJS-p6 span {
+    font-weight: 500;
+}
+
+.ac {
+    margin-top: 30px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+}
+
+.help-JS-right .CPJS-span {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.help-JS-right h1 {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #FE5341;
+}
+
+.help-JS-right button {
+    border: 0;
+    padding: 10px 80px 10px 80px;
+    background-color: #FE5341;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.CPJS-span2 {
+    display: block;
+    color: rgb(119, 115, 115);
+    font-size: 13px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.CPJS-span {
+    margin-bottom: 20px;
+    border-left: 4px solid #FE5341;
+}
+
+.help-JS-right-div {
+    margin-top: 10px;
+    font-size: 14px;
+    width: 270px;
+    color: rgb(139, 133, 133);
+    line-height: 20px;
+}
+
+.help-JS-right h3 {
+    margin-top: 10px;
+}
+
+.help-JS-right-EWM {
+    width: 270px;
+    height: 100px;
+    background-color: #EBEBEB;
+}
+
+main {
+    margin-bottom: 40px;
+}
+
+#helpCarousel {
+    margin-top: 30px;
+    height: 350px;
+    width: 1120px;
+}
+
+#helpCarousel li {
+    margin-right: 45px;
+    margin-top: 20px;
+}
+
+#Carousel-ul-id {
+    width: 1120px;
+}
+
+.help-JS-right {
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.help-LC-content img {
+    transition: all .4s linear;
+}
+
+.help-LC-content img:hover {
+    transform: rotate(360deg);
+}
+
+.llolog {
+    position: relative;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    animation: zhizuo .5s linear forwards;
+}
+
+@keyframes zhizuo {
+    0% {
+        top: -47px;
+        right: 113px;
+    }
+    100% {
+        top: 15px;
+        right: 200px;
+    }
+}
+
+.llolog img {
+    width: 217px;
+    height: 47px;
+}
+
+.llolog span {
+    position: absolute;
+    top: 17px;
+    left: 110px;
+    font-size: 14px;
+    font-weight: bold;
+}

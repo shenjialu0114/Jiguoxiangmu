@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 清除样式 -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- 头部 -->
+    <link rel="stylesheet" href="../css/header.css">
+    <!-- 字体 -->
+    <link rel="stylesheet" href="../css/font.css">
+    <!-- 底部 -->
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- 主体 -->
+    <link rel="stylesheet" href="../css/playindex.css">
+    <!--  -->
+
+    <link rel="shortcut icon" href="../imgs/c6a9e8dc2e6a0fe5b4dc54b626f3fec.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>发现酷玩-最新</title>
+    <link rel="shortcut icon" href="../imgs/c6a9e8dc2e6a0fe5b4dc54b626f3fec.ico" type="image/x-icon">
+    <script src="../js/ajax.js"></script>
+    <script src="../js/doT.min.js"></script>
+    <script></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <!-- 顶部搜索 -->
+        <div class="header-the main">
+            <!-- 左边logo -->
+            <a href="#" class="header-the-logo"> <img src="../imgs/header-logo@2x.png" alt=""> </a>
+            <!-- 导航部分 -->
+            <ul class="header-nav">
+                <li>
+                    <a href="../index.html">首页</a>
+                </li>
+                <li>
+                    <a id="header-one" href="../play/index.html">酷玩</a>
+                </li>
+                <li>
+                    <a href="../guid/index.html">导购</a>
+                </li>
+                <li>
+                    <a href="../use/base.html">试用</a>
+                </li>
+                <li>
+                    <a href="../report/index.html">报告</a>
+                </li>
+            </ul>
+            <div class="header-right">
+                <span class="iconfont right-font">&#xe637;</span>
+                <a href="../regist.html">
+                    <div class="right-ZC">注册</div>
+                </a>
+            </div>
+            <div class="llolog">
+                <img src="../imgs/jgyp.png" alt="">
+                <span>阎涛申佳路制作</span>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <!-- 主体 -->
+    <main>
+        <h1 class="main-header-h1">发现酷玩</h1>
+
+        <div class="main-header main">
+            <ul>
+                <li class="heng lilili"><a href="../play/index.html" class="ass">最新</a></li>
+                <li><a href="../play/hot.html">最热</a></li>
+                <li><a href="../play/kind.html">品类</a></li>
+            </ul>
+        </div>
+        <!-- 发现酷玩 -->
+        <div class="main-middel">
+            <div class="launch">
+                <div class="main-sift main " id="main-shft1">
+                    <div class="main-sift-centent main">
+
+                        <!-- 主体内容中间 -->
+                        <div class="main-article play-FXKW">
+                            <ul class="main-article-play-FXKW-ul">
+                                <script id="li_tmpl-y" type="text/x-dot-template">
+
+                                    <!--doT.js独有语法 -->
+                                    <!-- 六 展示数据 -->
+                                    <!-- 将doT.json内对应的对象名写进去 -->
+                                    {{~it:value:index}}
+                                    <li>
+                                        <img class="imgstm" src="{{=value.img}}" alt="">
+                                        <div class="main-articled">
+                                            <span>SCiO 微型光谱仪</span>
+                                            <p id='main-articled-p'>可以测定实物成分和营养</p>
+                                            <span class="block-span">{{=value.price}}</span>
+                                            <p class="imgp">
+                                                <img src="../imgs/zan.png" alt=""><span> 3</span><img src="../imgs/reply.png" alt=""><span> 3</span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    {{~}}
+                                </script>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 加载按钮 -->
+                <button class="jiazai iconfont"> &#xe63d;点击加载更多</button>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <!-- 底部 -->
+    <footer class="main">
+        <!-- 大盒子 -->
+        <div class="footer-div main">
+            <div class="footer-content main">
+                <img src="../imgs/code.png" alt="">
+                <!-- 第一列文字 -->
+                <div class="text-one">
+                    <img src="../imgs/logoImg.jpg" alt="">
+                    <!-- 文字 -->
+                    <div class="one-span">
+                        <span> <a href="">全球酷玩试用导购平台</a></span>
+                        <span><a href="">酷·新奇·好玩·品质</a></span>
+                        <div class="one-span-buttom">
+                            <span> <a href="">微信添加"Jguo Jguo"</a></span>
+                            <span><a href="">获取我们的服务</a></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 第二部分 -->
+                <div class="text-two">
+                    <ul class="text-title">
+                        <h1>免费试用</h1>
+                        <li> <a href="../help.html">试用流程</a> </li>
+                        <li>
+                            <a href="">如何提高成功率</a>
+                        </li>
+                    </ul>
+                    <ul class="text-title ">
+                        <h1>友情链接</h1>
+                        <li> <a href="">智东西</a> </li>
+                        <li>
+                            <a href="">搜狐IT</a>
+                        </li>
+                        <li>
+                            <a href="">搜狐数码</a>
+                        </li>
+                        <li>
+                            <a href="">凤凰数码</a>
+                        </li>
+                        <li>
+                            <a href="">泡泡网</a>
+                        </li>
+                        <li>
+                            <a href="">ZUK社区</a>
+                        </li>
+                        <li>
+                            <a href="">极客公园</a>
+                        </li>
+                        <li>
+                            <a href="">果库</a>
+                        </li>
+
+
+                    </ul>
+                    <ul class="text-titl-active ">
+
+                        <li> <a href="">WEIBUSI</a> </li>
+                        <li>
+                            <a href="">腾讯科技</a>
+                        </li>
+                        <li>
+                            <a href="">凤凰科技</a>
+                        </li>
+                        <li>
+                            <a href="">PConline</a>
+                        </li>
+                        <li>
+                            <a href="">3W咖啡</a>
+                        </li>
+                        <li>
+                            <a href="">亿觅emlie</a>
+                        </li>
+                        <li>
+                            <a href="">易迅易启玩</a>
+                        </li>
+                    </ul>
+                    <ul class="text-title active">
+                        <h1>购买攻略</h1>
+                        <li> <a href="">美亚淘淘教程</a> </li>
+                        <li>
+                            <a href="">日亚海淘教程</a>
+                        </li>
+                        <li>
+                            <a href="">海淘转运攻略</a>
+                        </li>
+                        <li>
+                            <a href="">kickstarter 众筹购买攻略</a>
+                        </li>
+                        <li>
+                            <a href="">indiegogo 众筹购买攻略</a>
+                        </li>
+                    </ul>
+                    <ul class="text-title active">
+                        <h1>厂商合作</h1>
+                        <li> <a href="../about.html">关于极果</a> </li>
+                        <li>
+                            <a href="">联系我们</a>
+                        </li>
+                        <li>
+                            <a href="">商务合作：BD@jiguo.com</a>
+                        </li>
+                        <li>
+                            <a href="">CEO@jiguo.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h2>
+                @2016极果版权所有
+            </h2>
+        </div>
+
+    </footer>
+    <div class="topshang">
+        <span>搜索</span>
+        <div class="iconfont">
+            <input type="text">&#xe637;
+            <p class="topshang-p">X</p>
+        </div>
+
+    </div>
+    <script src="../js/play.js"></script>
+
+    <script src="../js/play.js"></script>
+    <script src="../js/request-data.js">
+    </script>
+    <script src="../js/playindex.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/sousuo.js"></script>
+</body>
+
+</html>

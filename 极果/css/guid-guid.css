@@ -1,0 +1,236 @@
+body {
+    background-color: #F7F7F7;
+}
+
+header {
+    background-color: #fff;
+}
+
+.footer-content {
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.header-the img {
+    position: relative;
+    bottom: -4px;
+}
+
+.header-nav {
+    position: absolute;
+    bottom: 6px;
+}
+
+.header-right {
+    position: absolute;
+    top: 18px;
+}
+
+
+/* 头部span */
+
+.spantop {
+    box-sizing: border-box;
+    display: block;
+    color: #505050;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-right: 794px;
+}
+
+.pagediv {
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    /* height: 1200px; */
+}
+
+
+/* 详情页 */
+
+.pagediv-text {
+    width: 730px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+
+/* 分享部分 */
+
+
+/* 顶部 */
+
+.pagediv-text-top {
+    width: 100%;
+    height: 150px;
+    border-bottom: 2px solid #ccc;
+}
+
+.pagediv-text-top h1 {
+    font-size: 33px;
+    font-weight: 500;
+    padding-top: 35px;
+    padding-left: 30px;
+}
+
+.pagediv-text-top-p {
+    margin-top: 40px;
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+.pagediv-text-top-p span {
+    display: block;
+    float: right;
+    position: relative;
+    right: 30px;
+    color: rgb(94, 88, 88);
+    font-size: 12px;
+}
+
+
+/* 分享 */
+
+.share {
+    width: 274px;
+    height: 128px;
+    position: absolute;
+    top: 0;
+    right: 42px;
+    border-radius: 6px;
+    /* border: 1px solid #ccc; */
+}
+
+.share li {
+    box-sizing: border-box;
+    padding-top: 35px;
+    float: left;
+    border: 1px solid #ccc;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    /* box-shadow: 0 0 5px #ccc; */
+    cursor: pointer;
+}
+
+.lioneli {
+    border-radius: 5px 0 0 5px;
+    border-right: 0;
+}
+
+.litwoli {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.share li p {
+    margin-top: 10px;
+    color: rgb(97, 94, 94);
+}
+
+
+/* 人物介绍赵佳乐 */
+
+.text-middel {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.imguser {
+    width: 390px;
+    height: 135px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.text-middel h4 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.text-middel img {
+    width: 690px;
+}
+
+.text-middel p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bottom-text {
+    margin-top: 46px;
+    margin-bottom: 46px;
+}
+
+.bshare-custom {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.bshare-custom-div p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.bshare-custom-div {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 4px 4px 4px #ccc, -4px -4px 4px #ccc;
+    display: none;
+}
+
+.bshare-custom-div-button {
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.bshare-custom-div-button button {
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(124, 199, 250);
+    color: #fff;
+}
+
+.llolog {
+    position: relative;
+    position: absolute;
+    animation: zhizuo .5s linear forwards;
+}
+
+@keyframes zhizuo {
+    0% {
+        top: -47px;
+        right: 113px;
+    }
+    100% {
+        top: 5px;
+        right: 200px;
+    }
+}
+
+.llolog img {
+    width: 217px;
+    height: 47px;
+}
+
+.llolog span {
+    position: absolute;
+    top: 23px;
+    left: 110px;
+    font-size: 14px;
+    font-weight: bold;
+}

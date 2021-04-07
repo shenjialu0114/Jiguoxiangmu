@@ -1,0 +1,11 @@
+.banner-ul li .poshit-span {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #C1AF7A;
+    font-size: 13px;
+    padding: 5px 14px 5px 14px;
+    background-color: #FAF3C9;
+    border-radius: 0 5px 0 5px;
+}
